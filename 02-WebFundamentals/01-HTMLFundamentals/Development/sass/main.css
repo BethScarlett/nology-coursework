@@ -6,6 +6,11 @@
   align-items: center;
 }
 
+.contact-us-backdrop {
+  min-height: 50vh;
+  background-color: #28527A;
+}
+
 .button {
   display: block;
   width: 100px;
@@ -51,6 +56,49 @@
 .wave {
   fill-opacity: 1;
   fill: #28527A;
+  margin-bottom: -5px;
+}
+
+.contact-us-form {
+  min-height: 22vh;
+  width: 23.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #55a5f0;
+  margin: auto;
+}
+.contact-us-form .contact-us-title {
+  font-size: 17px;
+  align-self: flex-start;
+  margin-left: 3px;
+}
+.contact-us-form .contact-us-input {
+  align-self: flex-start;
+  margin: 10px 10px;
+  padding-bottom: 10px;
+  padding-right: 10vh;
+}
+.contact-us-form .secondbutton {
+  display: inline;
+  background-color: #333333;
+  text-align: center;
+  margin-top: 7.5px;
+  padding: 2% 25%;
+  border-radius: 2.5px;
+  color: #FAfafa;
+  font-family: "Roboto", "sans-serif";
+}
+
+.contact-us-help {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FAfafa;
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-family: "Dancing Script", cursive;
 }
 
 * {
