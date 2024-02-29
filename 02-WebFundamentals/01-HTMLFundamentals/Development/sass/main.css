@@ -34,4 +34,33 @@ a:visited {
   color: #FAfafa;
   font-size: 40px;
   font-family: "Dancing Script", cursive;
+}
+
+.header {
+  height: 70ph;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .intro {
+  text-align: center;
+  padding: 150px 0;
+}
+.header .intro .heading {
+  color: #28527A;
+  font-size: 50px;
+  padding: 5px 0;
+}
+.header .intro .sub-heading {
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  margin: 20px 0;
+}
+.header .intro .button {
+  margin: 0 auto;
+}
+
+.wave {
+  fill-opacity: 1;
+  fill: #28527A;
 }/*# sourceMappingURL=main.css.map */

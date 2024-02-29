@@ -47,5 +47,37 @@ a:visited {
         font-size: 40px;
         font-family: $font-display;
     }
+}
 
+.header {
+    height: 70ph;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .intro {
+        text-align: center;
+        padding: 150px 0;
+
+        .heading {
+            color: $color-primary;
+            font-size: 50px;
+            padding: 5px 0;
+        }
+
+        .sub-heading {
+            font-family: $font-display;
+            font-size: 25px;
+            margin: 20px 0;
+        }
+
+        .button {
+            margin: 0 auto;
+        }
+    }
+}
+
+.wave {
+    fill-opacity: 1;
+    fill: $color-primary;
 }
