@@ -49,4 +49,52 @@
 .wave {
     fill-opacity: 1;
     fill: $color-primary;
+    margin-bottom: -5px;
 }
+
+.contact-us-form {
+    min-height: 22vh;
+    width: 23.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-primary-light;
+    margin:auto;
+    
+    .contact-us-title {
+        font-size: 17px;
+        align-self: flex-start;
+        margin-left: 3px;
+    }
+
+    .contact-us-input {
+        align-self: flex-start;
+        margin: 10px 10px;
+        padding-bottom: 10px;
+        padding-right: 10vh;
+    }
+
+    .secondbutton {
+        display: inline;
+        background-color: $color-black;
+        text-align: center;
+        margin-top: 7.5px;
+        padding: 2% 25%;
+        border-radius: 2.5px;
+        color: $color-white;
+        font-family: $font-body;
+    }
+
+}
+
+.contact-us-help {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-white;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-family: $font-display;
+}
+
