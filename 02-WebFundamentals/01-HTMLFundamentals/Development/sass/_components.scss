@@ -1,0 +1,52 @@
+@use "./variable" as *;     //Making the variables accessible
+
+.button {
+    display: block;
+    width: 100px;
+    background-color: $color-secondary;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: $color-white;
+}
+
+.navigation {
+    height: 10vh;
+    background-color: $color-primary;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        color: $color-white;
+        font-size: 40px;
+        font-family: $font-display;
+    }
+}
+
+.intro {
+    text-align: center;
+    padding: 150px 0;
+
+    .heading {
+        color: $color-primary;
+        font-size: 50px;
+        padding: 5px 0;
+    }
+
+    .sub-heading {
+        font-family: $font-display;
+        font-size: 25px;
+        margin: 20px 0;
+    }
+
+    .button {
+        margin: 0 auto;
+    }
+}
+
+.wave {
+    fill-opacity: 1;
+    fill: $color-primary;
+}
