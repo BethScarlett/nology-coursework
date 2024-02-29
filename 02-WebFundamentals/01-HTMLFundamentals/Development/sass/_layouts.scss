@@ -1,6 +1,13 @@
+@use "./variable" as *;
+
 .header {
     height: 70ph;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.contact-us-backdrop {
+    min-height: 50vh;
+    background-color: $color-primary;
 }
