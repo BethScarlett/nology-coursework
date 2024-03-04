@@ -1,0 +1,37 @@
+@use "./variables" as *;
+
+.navigation-bar {
+    height: 10vh;
+    //width: auto;
+    padding: 50px 0px;     //Adds space around navbar
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .logo {
+        font-size: 100px;
+        font-family: $logo-font;
+        margin-left: 10px;
+    }
+    
+    .logo-image {
+        max-width: auto;
+        max-height: 100px;
+    }
+    
+    .login-button {
+        //position: absolute;
+        text-decoration: none;
+        justify-self: flex-end;
+        margin-left: auto;              //Sets button to left of screen
+        margin-right: 10px;             //Adds buffer so button is on screen
+        padding: 15px 25px;
+        border: 2px solid aqua;
+        border-radius: 5px;
+        background-color: $button-color-1;
+        font-size: 20px;
+        font-family: $button-font;
+        //background-color: red;
+    }
+}
+

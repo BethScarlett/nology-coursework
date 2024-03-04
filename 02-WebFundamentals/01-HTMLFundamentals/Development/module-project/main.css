@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.navigation-bar {
+  height: 10vh;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navigation-bar .logo {
+  font-size: 100px;
+  font-family: "Righteous", "sans-serif";
+  margin-left: 10px;
+}
+.navigation-bar .logo-image {
+  max-width: auto;
+  max-height: 100px;
+}
+.navigation-bar .login-button {
+  text-decoration: none;
+  justify-self: flex-end;
+  margin-left: auto;
+  margin-right: 10px;
+  padding: 15px 25px;
+  border: 2px solid aqua;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 208);
+  font-size: 20px;
+  font-family: "Roboto", "sans-serif;";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=main.css.map */
