@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Righteous&family=Roboto&family=Madimi+One:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 .navigation-bar {
   height: 10vh;
   padding: 50px 0px;
+  margin-bottom: 30px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -26,6 +27,18 @@
   background-color: rgb(255, 255, 208);
   font-size: 20px;
   font-family: "Roboto", "sans-serif;";
+}
+
+#heading-1 {
+  font-size: 50px;
+  text-wrap: wrap;
+  text-align: center;
+  margin: auto;
+  max-width: 60vh;
+  display: flex;
+  justify-content: center;
+  font-family: "Madimi One", "sans-serif";
+  color: #42B0CB;
 }
 
 * {
