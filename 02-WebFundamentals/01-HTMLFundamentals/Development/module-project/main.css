@@ -41,6 +41,14 @@
   color: #42B0CB;
 }
 
+#device-mockup {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 40px;
+  min-width: 60vh;
+}
+
 * {
   margin: 0;
   padding: 0;

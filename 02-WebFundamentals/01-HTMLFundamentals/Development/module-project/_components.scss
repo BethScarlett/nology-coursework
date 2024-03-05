@@ -47,3 +47,11 @@
     font-family: $heading-font;
     color: $heading-color-1;
 }
+
+#device-mockup {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+    min-width: 60vh;
+}
