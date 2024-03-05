@@ -53,5 +53,42 @@
     justify-content: center;
     margin: auto;
     margin-top: 40px;
+    margin-bottom: 40px;
     min-width: 60vh;
+}
+
+.page-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .page-description-text {
+        text-align: center;
+        text-wrap: wrap;
+        font-size: 30px;
+        font-family: $button-font;
+        margin: auto;
+        margin-bottom: 30px;
+        max-width: 70vw;
+    }
+
+    #heading-2 {
+        color: $heading-color-2;
+    }
+
+    #heading-3 {
+        color: $heading-color-1;
+    }
+
+}
+
+.button-2 {
+    margin: auto;
+    text-decoration: none;
+    color: $button-text-color-1;
+    padding: 15px 13vw;
+    border-radius: 7px;
+    background-color: $button-color-2;
+    font-size: 30px;
+    font-family: $button-font;
 }
