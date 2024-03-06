@@ -82,6 +82,38 @@
   font-family: "Roboto", "sans-serif;";
 }
 
+.page-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.page-contents #page-contents-title {
+  font-size: 40px;
+  font-family: "Madimi One", "sans-serif";
+  margin-top: 20px;
+}
+.page-contents .page-contents-box {
+  justify-content: center;
+  align-self: center;
+  margin: 10px 0;
+}
+.page-contents .page-contents-box .page-contents-text {
+  text-align: left;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 40px;
+  font-size: 28px;
+  width: 400px;
+  text-wrap: wrap;
+  word-wrap: break-word;
+}
+.page-contents .page-contents-box .page-contents-image {
+  vertical-align: middle;
+}
+
 * {
   margin: 0;
   padding: 0;

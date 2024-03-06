@@ -92,3 +92,40 @@
     font-size: 30px;
     font-family: $button-font;
 }
+
+.page-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+
+    #page-contents-title {
+        font-size: 40px;
+        font-family: $heading-font;
+        margin-top: 20px;
+    }
+
+    .page-contents-box {
+        justify-content: center;
+        align-self: center;
+        margin: 10px 0;
+
+        .page-contents-text {
+            text-align: left;
+            vertical-align: middle;
+            display: inline-block;
+            line-height: 40px;
+            font-size: 28px;
+            width: 400px;
+            text-wrap: wrap;
+            word-wrap: break-word;
+        }
+
+        .page-contents-image {
+            vertical-align: middle;
+        }
+    }
+}
+
