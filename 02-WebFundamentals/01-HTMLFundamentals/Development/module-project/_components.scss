@@ -21,18 +21,16 @@
     }
     
     .login-button {
-        //position: absolute;
         text-decoration: none;
         justify-self: flex-end;
         margin-left: auto;              //Sets button to left of screen
         margin-right: 10px;             //Adds buffer so button is on screen
-        padding: 15px 25px;
-        border: 2px solid aqua;
-        border-radius: 5px;
-        background-color: $button-color-1;
-        font-size: 20px;
+        padding: 17px 40px;
+        border: 2px solid $button-color-2;
+        border-radius: 7px;
+        color: $heading-color-2;
+        font-size: 22px;
         font-family: $button-font;
-        //background-color: red;
     }
 }
 
