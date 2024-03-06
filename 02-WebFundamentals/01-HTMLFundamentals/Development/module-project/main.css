@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Righteous&family=Roboto&family=Madimi+One:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Righteous&family=Roboto&family=Madimi+One&family=Kanit:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 .navigation-bar {
   height: 10vh;
   padding: 50px 0px;
@@ -26,7 +26,7 @@
   border-radius: 7px;
   color: #0E2052;
   font-size: 22px;
-  font-family: "Roboto", "sans-serif;";
+  font-family: "Kanit", "sans-serif";
 }
 
 #heading-1 {
