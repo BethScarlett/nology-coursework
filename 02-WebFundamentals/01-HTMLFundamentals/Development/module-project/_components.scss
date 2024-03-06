@@ -1,5 +1,15 @@
 @use "./variables" as *;
 
+.phone-information {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5px;
+
+    #time {
+        font-size: 20px;
+    }
+}
+
 .navigation-bar {
     height: 10vh;
     //width: auto;
