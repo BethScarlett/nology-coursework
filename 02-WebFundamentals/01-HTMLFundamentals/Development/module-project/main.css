@@ -114,6 +114,21 @@
   vertical-align: middle;
 }
 
+.page-additional-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  background-color: #FBF9C4;
+}
+.page-additional-information .page-additional-information-links {
+  text-decoration: none;
+  font-family: "Madimi One", "sans-serif";
+  color: #000000;
+  font-size: 25px;
+  margin: 20px 0;
+}
+
 * {
   margin: 0;
   padding: 0;
