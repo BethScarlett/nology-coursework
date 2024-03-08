@@ -3,13 +3,32 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Grade Calculator</title>
+        <title>More Calculators</title>
         <script src="script.js"></script>
     </head>
     <body>
         <div>
             <h1>Grade Calculator</h1>
-            <input type="text" onblur="handleCalculateGrade(event)" />
+            <input type="text" onblur="handleCalculateGrade(event)"/>
+        </div>
+        <div>
+            <h1>Positive or negative?</h1>
+            <input type="number" onblur="handlePositiveNegative(event)"/>
+        </div>
+        <div>
+            <h1>Days until the weekend</h1>
+            <input type="text" onblur="handleDaysUntilWeekend(event)"/>
+        </div>
+        <div>
+            <h1>Vegetable Prices</h1>
+            <label>Pick a vegetable: </label>
+            <select name = "vegetables" id= "vegetables" onchange="handleVegetablePrices(this)">
+                <option value= "carrot">Carrots</option>
+                <option value= "potato">Potatoes</option>
+                <option value= "brocolli">Brocolli</option>
+                <option value= "cabbage">Cabbage</option>
+                <option value= "asparagus">Asparagus</option>
+            </select>
         </div>
     </body>
 </html>
