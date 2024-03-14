@@ -1,5 +1,3 @@
-/*
-
 //Calculate the perimiter of a rectangle
 
 const calculatePerimiter = (width, height) => 
@@ -25,7 +23,6 @@ const calculateCircumference = (radius) =>
 }
 
 console.log (calculateCircumference(7));
-*/
 
 //Write a function named getDescription that:
 //Takes 4 arguments: number of children, partner's name, geographic location, job title.
